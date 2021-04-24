@@ -1,0 +1,43 @@
+.u-section-1 {
+  min-height: 620px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 730px;
+  left: auto;
+  right: 0;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 400;
+  font-family: "Alfa Slab One";
+  margin: 246px calc(((100% - 1140px) / 2) + 455px) 60px calc(((100% - 1140px) / 2) + 346px);
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 940px) / 2) + 375px);
+    margin-left: calc(((100% - 940px) / 2) + 285px);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 720px) / 2) + 287px);
+    margin-left: calc(((100% - 720px) / 2) + 218px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 540px) / 2) + 215px);
+    margin-left: calc(((100% - 540px) / 2) + 164px);
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    margin-right: calc(((100% - 340px) / 2) + 135px);
+    margin-left: calc(((100% - 340px) / 2) + 103px);
+  }
+}
